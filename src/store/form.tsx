@@ -6,7 +6,7 @@ export interface FormField {
     type: FormFieldType;
     label: string;
     required: boolean;
-    options?: string[]; // only applicable for radio/checkbox
+    options?: string[];
 }
 
 interface FormStore {
